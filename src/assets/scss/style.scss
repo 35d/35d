@@ -1,8 +1,4 @@
-$baseColor: #000;
-
 body {
-  // background: $baseColor;
-  // font-family: "MyFont", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -47,6 +43,30 @@ body {
       li + li {
         margin-left: 16px;
       }
+
+      &-dark {
+        opacity: 0;
+      }
     }
   }
+}
+
+.c-switch {
+  position: absolute;
+  top: 16;
+  right: 16;
+  opacity: 0.3;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.darkMode {
+  background-color: #111;
+  color: #EEE;
+
+      &caption {
+      text-align: center;
+    }
 }
