@@ -20,5 +20,8 @@
   "devDependencies": {
     "parcel": "^1.11.0",
     "sass": "^1.15.2"
+  },
+  "dependencies": {
+    "vue": "^2.5.21"
   }
 }
