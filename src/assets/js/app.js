@@ -1,8 +1,10 @@
-import "../scss/reset.scss";
-import "../scss/style.scss";
+import '../scss/reset.scss';
+import '../scss/style.scss';
 
-const number1 = 400;
-const number2 = 600;
-const total = number1 + number2;
+import Vue from 'vue';
+import App from './App.vue';
 
-console.log(total);
+new Vue({
+  el: '#app',
+  render: h => h(App)
+});
