@@ -39,7 +39,7 @@
 export default {
   data() {
     return {
-      isDarkMode: true
+      isDarkMode: false
     };
   },
   methods: {
