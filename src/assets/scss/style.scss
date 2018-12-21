@@ -1,0 +1,51 @@
+$baseColor: #000;
+
+body {
+  // background: $baseColor;
+  // font-family: "MyFont", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.l-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.c-profile {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  figure {
+    text-align: center;
+  }
+
+  &_ {
+    &image {
+      width: 160px;
+      height: 160px;
+      border-radius: 80px;
+      margin-bottom: 8px;
+    }
+
+    &list {
+      display: flex;
+      flex-direction: row;
+      width: 200px;
+
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+      }
+
+      li + li {
+        margin-left: 16px;
+      }
+    }
+  }
+}

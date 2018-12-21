@@ -1,0 +1,24 @@
+{
+  "name": "35d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikke1925/35d.git"
+  },
+  "keywords": [],
+  "author": "nikke1925 <nikke.934@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikke1925/35d/issues"
+  },
+  "homepage": "https://github.com/nikke1925/35d#readme",
+  "devDependencies": {
+    "parcel": "^1.11.0",
+    "sass": "^1.15.2"
+  }
+}
