@@ -26,7 +26,7 @@
           </a>
         </li>
         <li>
-          <a href="https://github.com/nikke1925" target="_blank">
+          <a href="https://github.com/35d" target="_blank">
             <img src="../images/GitHub.png" alt="GitHub">
           </a>
         </li>
