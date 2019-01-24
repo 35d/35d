@@ -51,9 +51,13 @@ export default {
     };
   },
   mounted() {
-    window.addEventListener("touchmove", function(event) {
-      event.preventDefault();
-    });
+    window.addEventListener(
+      "touchmove",
+      function(event) {
+        event.preventDefault();
+      },
+      { passive: false }
+    );
   },
   methods: {
     onPressSwitch() {
