@@ -4,6 +4,13 @@ date: 2019-12-28
 category: Development
 tags:
   - VuePress
+meta:
+  - name: og:title
+    content: VuePress + Netlify で GitHub に Push したら自動で公開されるように設定する
+  - name: og:description
+    content: このブログの制作過程も記事にしていこうと思います。Netlify の場合は GUI で設定ができるので、以下のように設定すれば完了でした。  
+  - name: og:type
+    content: article
 ---
 
 # VuePress + Netlify で GitHub に Push したら自動で公開されるように設定する
