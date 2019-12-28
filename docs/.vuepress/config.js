@@ -1,7 +1,8 @@
 module.exports = {
   title: '35d',
+  description: '@35dのブログです。',
   head: [
-    ['meta', { name: 'google-site-verification', content: 'cGibt4uXK95r4DSrslEC69ZkZopxKnwvaJqSsnFYUew' }],
+    ['meta', { title: '35d' }],
     ['meta', { property: 'twitter:card', content: 'summary' }],
     ['link', { rel: 'icon', href: '/favicon.png' }],
   ],
