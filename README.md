@@ -8,6 +8,7 @@
 これで、書き込みを開始できます。
 
 ```
+ローカル実行
 yarn docs:dev # OR npm run docs:dev
 ```
 

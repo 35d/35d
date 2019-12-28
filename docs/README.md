@@ -1,3 +1,4 @@
-# Hello VuePress
+# VuePress のブログを作った
 
-test
+今まで [Medium](https://medium.com/35d) で書いてたブログをこちらに移行することにしました。
+今までより更新頻度上げて書いていこうと思うので、よろしくお願いします。
