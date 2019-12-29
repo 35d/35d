@@ -15,8 +15,7 @@ meta:
 
 # VuePress のデフォルトテーマを eject する
 
-テーマをいじりたいところがあり、かつ、もとのテーマの資産も流用したい。  
-ということでもとのテーマを eject して、それを加工していくことにしました。
+テーマをいじりたいところがあり、かつ、もとのテーマの資産も流用したい。ということでもとのテーマを eject して、それを加工していくことにしました。
 
 以下のコマンドで実行できます。
 
@@ -25,3 +24,7 @@ vuepress eject
 ```
 
 参考: [https://vuepress.vuejs.org/theme/default-theme-config.html](https://vuepress.vuejs.org/theme/default-theme-config.html#custom-layout-for-specific-pages)
+
+---
+
+eject して、`plugin-blog` をインストールして、タグ機能やカテゴリ機能を導入する予定です。
