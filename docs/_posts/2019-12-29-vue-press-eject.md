@@ -15,15 +15,13 @@ meta:
 
 # VuePress のデフォルトテーマを eject する
 
-もろもろいじりたいところがあり、かつ、もとのテーマの資産も流用したい、  
-ということで eject して、それを加工していくことにしました。
+テーマをいじりたいところがあり、かつ、もとのテーマの資産も流用したい。  
+ということでもとのテーマを eject して、それを加工していくことにしました。
 
-以下のコマンドで実行できる
+以下のコマンドで実行できます。
 
 ```
 vuepress eject
 ```
 
-※ VuePress にアップデートがあったときに、package.json 経由でアップデートができなくなるので注意が必要です。ご利用は自己責任で……
-
-(参考)[https://vuepress.vuejs.org/theme/default-theme-config.html#custom-layout-for-specific-pages]
+参考: [https://vuepress.vuejs.org/theme/default-theme-config.html](https://vuepress.vuejs.org/theme/default-theme-config.html#custom-layout-for-specific-pages)

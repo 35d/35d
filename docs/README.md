@@ -8,6 +8,6 @@ meta:
     content: website
 ---
 
-# トップページ
+## 記事一覧
 
 <PostList />

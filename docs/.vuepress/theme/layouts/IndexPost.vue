@@ -15,6 +15,10 @@
       <slot name="page-top" #top />
       <slot name="page-bottom" #bottom />
     </Page>
+    <div class="theme-default-content">
+      <h2>記事一覧</h2>
+      <PostList />
+    </div>
   </div>
 </template>
 

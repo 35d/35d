@@ -8,8 +8,34 @@ module.exports = {
   ],
   plugins: [
     [
-      "@vuepress/google-analytics",
       "@vuepress/blog",
+      {
+        directories: [
+          {
+            id: "post",
+            dirname: "_posts",
+            path: "/blog/",
+            itemPermalink: "/blog/:year-:month-:day-:slug",
+            layout: "IndexPost", // 記事一覧ページ /blog/ ホーム
+            itemLayout: "Post", // 記事詳細ページ
+            pagination: {
+              lengthPerPage: 10
+            }
+          }
+        ],
+        frontmatters: [
+          {
+            id: "tag",
+            keys: ["tag", "tags"],
+            path: "/blog/tags/",
+            layout: "Tags",
+            scopeLayout: "Tag"
+          }
+        ]
+      }
+    ],
+    [
+      "@vuepress/google-analytics",
       {
         ga: "UA-148970528-1"
       }

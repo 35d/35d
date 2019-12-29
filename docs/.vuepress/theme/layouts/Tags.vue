@@ -8,13 +8,14 @@
       <slot name="sidebar-top" #top />
       <slot name="sidebar-bottom" #bottom />
     </Sidebar>
-
-    <Home v-if="$page.frontmatter.home" />
-
-    <Page v-else :sidebar-items="sidebarItems">
+    <Page :sidebar-items="sidebarItems">
       <slot name="page-top" #top />
       <slot name="page-bottom" #bottom />
     </Page>
+    <div class="theme-default-content">
+      <h2>タグ一覧</h2>
+      <TagList />
+    </div>
   </div>
 </template>
 
