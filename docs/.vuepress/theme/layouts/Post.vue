@@ -11,7 +11,7 @@
 
     <Home v-if="$page.frontmatter.home" />
 
-    <Page v-else :sidebar-items="sidebarItems">
+    <Page v-else :sidebar-items="sidebarItems" :tags="tags">
       <slot name="page-top" #top />
       <slot name="page-bottom" #bottom />
     </Page>
@@ -63,6 +63,10 @@ export default {
         },
         userPageClass
       ];
+    },
+
+    tags() {
+      return this.$page.frontmatter.tags;
     }
   },
 
