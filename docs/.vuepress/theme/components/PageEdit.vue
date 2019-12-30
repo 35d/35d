@@ -1,7 +1,7 @@
 <template>
   <footer class="page-edit">
-    <ul>
-      <li v-for="tag in tags">
+    <ul style="padding-left: 0;">
+      <li v-for="tag in tags" class="tag">
         <a v-bind:href="'/blog/tags/' + tag + '/'" style="margin-right: 8px;">{{ tag }}</a>
       </li>
     </ul>
@@ -98,6 +98,16 @@ export default {
     .time
       font-weight 400
       color #aaa
+.tag
+  list-style: none;
+  display: inline-block;
+  a
+    color lighten($textColor, 25%)
+    background-color: #f2f2f2;
+    color: #909090;
+    padding: 4px 8px;
+    margin-right: 8px;
+
 
 @media (max-width: $MQMobile)
   .page-edit
