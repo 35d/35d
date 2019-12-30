@@ -39,6 +39,13 @@ module.exports = {
       {
         ga: "UA-148970528-1"
       }
+    ],
+    [
+      "sitemap",
+      {
+        hostname: "https://35d.jp/",
+        changefreq: "hourly"
+      }
     ]
   ]
 };

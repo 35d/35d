@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /log/
+Sitemap: https://35d.jp/sitemap.xml
