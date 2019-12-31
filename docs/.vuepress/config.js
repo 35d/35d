@@ -19,7 +19,7 @@ module.exports = {
             layout: "IndexPost", // 記事一覧ページ /blog/ ホーム
             itemLayout: "Post", // 記事詳細ページ
             pagination: {
-              lengthPerPage: 10
+              lengthPerPage: 30
             }
           }
         ],
