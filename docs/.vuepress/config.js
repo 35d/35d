@@ -1,4 +1,9 @@
 module.exports = {
+  locales: {
+    "/": {
+      lang: "ja"
+    }
+  },
   title: "35d",
   description: "@35dのブログです。",
   head: [
