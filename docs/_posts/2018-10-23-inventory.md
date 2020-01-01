@@ -4,6 +4,10 @@ date: 2018-10-23
 category: log
 tags:
   - 棚卸し
+  - React Native
+  - Ruby on Rails
+  - Vue.js
+  - スプラトゥーン2
 meta:
   - name: og:title
     content: 棚卸し(2018年10月)
