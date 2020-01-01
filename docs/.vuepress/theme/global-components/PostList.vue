@@ -1,7 +1,10 @@
 <template>
   <ul>
     <li v-for="post in posts">
-      <a v-bind:href="post.path">{{ post.title }}</a>
+      <a v-bind:href="post.path">
+        {{ new Date(post.frontmatter.date).getFullYear() }}/{{ new Date(post.frontmatter.date).getMonth() + 1 }}/{{ new Date(post.frontmatter.date).getDate() }}
+        {{ post.title }}
+      </a>
     </li>
   </ul>
 </template>
