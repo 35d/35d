@@ -2,7 +2,7 @@
   <ul>
     <li v-for="post in posts">
       <a v-bind:href="post.path">
-        {{ new Date(post.frontmatter.date).getFullYear() }}/{{ new Date(post.frontmatter.date).getMonth() + 1 }}/{{ new Date(post.frontmatter.date).getDate() }}
+        {{ post.frontmatter.date }}
         {{ post.title }}
       </a>
     </li>
@@ -19,7 +19,11 @@ export default {
       return this.$site.pages
         .filter(post => post.path.startsWith("/blog/"))
         .filter(post => !!post.title)
-        .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
+        .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
+        .map(post => {
+          post.frontmatter.date = moment(post.frontmatter.date).format("YYYY/MM/DD");
+          return post;
+        });
     },
     categories() {
       return [];
