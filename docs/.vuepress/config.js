@@ -19,7 +19,8 @@ module.exports = {
     ["meta", { title: "35d" }],
     ["meta", { property: "og:image", content: "/og-image.jpg" }],
     ["meta", { property: "twitter:card", content: "summary" }],
-    ["link", { rel: "icon", href: "/favicon.png" }]
+    ["link", { rel: "icon", href: "/favicon.png" }],
+    ["script", { "data-ad-client": "ca-pub-6440039437376764", async: true, src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" }]
   ],
   plugins: [
     [
