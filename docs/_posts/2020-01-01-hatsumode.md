@@ -9,7 +9,7 @@ meta:
   - name: og:title
     content: 初詣・テラスハウス・鬼滅の刃
   - name: og:description
-    content: Medium で書いていたブログをこの VuePress ブログにインポートするにあたって、Medium の記事を Markdown 形式でエクスポートするやり方を調べたのでブログにまとめておこうと思います。
+    content: 新年あけましておめでとうございます。今年もよろしくお願いします。
   - name: og:type
     content: article
 ---
