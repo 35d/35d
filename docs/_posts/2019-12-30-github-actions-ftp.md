@@ -1,7 +1,7 @@
 ---
 title: GitHub Actions で Vue.js のビルドをして FTP サーバー経由で自動デプロイ
 date: 2019-12-30
-category: Development
+category: development
 tags:
   - VuePress
   - Vue.js

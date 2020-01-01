@@ -1,7 +1,7 @@
 ---
 title: 2018 年上半期 お金を払っている購読型サービス
 date: 2018-05-18
-category: Log
+category: log
 tags:
   - お金
 meta:

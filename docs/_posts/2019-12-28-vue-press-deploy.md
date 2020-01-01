@@ -1,7 +1,7 @@
 ---
 title: VuePress + Netlify で GitHub に Push したら自動で公開されるように設定する
 date: 2019-12-28
-category: Development
+category: development
 tags:
   - VuePress
 meta:

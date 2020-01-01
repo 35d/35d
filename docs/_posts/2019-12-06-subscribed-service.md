@@ -1,7 +1,7 @@
 ---
 title: 2019 年 お金を払っている購読型サービス
 date: 2019-12-06
-category: Log
+category: log
 tags:
   - Notion
   - お金

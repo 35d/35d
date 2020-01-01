@@ -1,7 +1,7 @@
 ---
 title: Medium から Markdown ファイルをエクスポートする
 date: 2019-12-31
-category: Development
+category: development
 tags:
   - Medium
   - VuePress

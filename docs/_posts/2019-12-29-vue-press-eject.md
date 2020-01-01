@@ -1,7 +1,7 @@
 ---
 title: VuePress のデフォルトテーマを eject する
 date: 2019-12-29
-category: Development
+category: development
 tags:
   - VuePress
 meta:

@@ -71,7 +71,7 @@ export default {
     },
 
     title() {
-      return this.$currentTag.key + " の記事一覧";
+      return "タグ「" + this.$currentTag.key + "」の記事一覧";
     },
 
     posts() {

@@ -4,6 +4,14 @@ module.exports = {
       lang: "ja"
     }
   },
+  themeConfig: {
+    nav: [
+      { text: "技術", link: "/blog/categories/development/" },
+      { text: "記録", link: "/blog/categories/log/" },
+      { text: "雑", link: "/blog/categories/zatsu/" },
+      { text: "タグ一覧", link: "/blog/tags/" }
+    ]
+  },
   title: "35d",
   description: "@35dのブログです。",
   head: [
