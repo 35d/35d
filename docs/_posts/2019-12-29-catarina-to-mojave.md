@@ -1,7 +1,7 @@
 ---
 title: MacOS Catalina から Mojave にダウングレードした
 date: 2019-12-29
-category: Memo
+category: Development
 tags:
   - Mac
 meta:

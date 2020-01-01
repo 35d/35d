@@ -35,6 +35,13 @@ module.exports = {
             path: "/blog/tags/",
             layout: "Tags",
             scopeLayout: "Tag"
+          },
+          {
+            id: "category",
+            keys: ["category"],
+            path: "/blog/categories/",
+            layout: "Categories",
+            scopeLayout: "Category"
           }
         ]
       }
