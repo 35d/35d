@@ -11,11 +11,13 @@ module.exports = {
       { text: "雑", link: "/blog/categories/zatsu/" },
       { text: "タグ一覧", link: "/blog/tags/" }
     ]
+    // sidebar: ["/", "/", ["/", "Explicit link text"]]
   },
   title: "35d",
-  description: "@35dのブログです。",
+  description: "@___35dのブログです。",
   head: [
     ["meta", { title: "35d" }],
+    ["meta", { property: "og:image", content: "/og-image.jpg" }],
     ["meta", { property: "twitter:card", content: "summary" }],
     ["link", { rel: "icon", href: "/favicon.png" }]
   ],
