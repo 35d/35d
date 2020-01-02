@@ -27,4 +27,9 @@ export default {
 .page
   padding-bottom 2rem
   display block
+
+img + em {
+  text-align: center;
+  display: block;
+}
 </style>
