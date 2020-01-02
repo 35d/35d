@@ -101,6 +101,8 @@ export default {
 .tag
   list-style: none;
   display: inline-block;
+  margin-bottom: 4px;
+  font-size: 12px;
   a
     color lighten($textColor, 25%)
     background-color: #f2f2f2;
