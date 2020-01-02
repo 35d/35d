@@ -18,6 +18,20 @@ meta:
 
 定点観測。
 
+### ホーム画面
+
+- LINE
+- 写真
+- Notion
+- フォルダ
+
+### ドック
+
+- Twitter
+- Safari
+- Google カレンダー
+- Slack
+
 ![iPhoneホーム画面](../assets/img/2020-01-02-2.png)_グラデが綺麗に描画されない_
 
 ---
