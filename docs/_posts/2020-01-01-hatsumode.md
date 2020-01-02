@@ -5,6 +5,7 @@ category: Zatsu
 tags:
   - テラスハウス
   - 鬼滅の刃
+  - 漫画
 meta:
   - name: og:title
     content: 初詣・テラスハウス・鬼滅の刃
