@@ -1,7 +1,7 @@
 ---
 title: 初詣・テラスハウス・鬼滅の刃
 date: 2020-01-01
-category: Zatsu
+category: zatsu
 tags:
   - テラスハウス
   - 鬼滅の刃
