@@ -24,7 +24,7 @@ Error: Could not load the default credentials. Browse to https://cloud.google.co
     at process._tickDomainCallback (internal/process/next_tick.js:229:7)
 ```
 
-結論、 GCP のバグっぽくて、2020 年 1 月 3 日時点ではまだ解決されてない問題だと Google の方も言っています。
+結論、 GCP のバグっぽくて、（このブログを書いている 2020 年 1 月 3 日時点では）まだ解決されてない問題だと Google の方も言っています。
 
 [https://github.com/googleapis/google-auth-library-nodejs/issues/798#issuecomment-544764448](https://github.com/googleapis/google-auth-library-nodejs/issues/798#issuecomment-544764448)
 
