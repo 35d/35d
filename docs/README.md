@@ -3,7 +3,7 @@ title: トップページ
 date: 2019-12-28
 meta:
   - name: og:description
-    content: トップページです
+    content: "@___35d のサイトです。"
   - name: og:type
     content: website
 ---
