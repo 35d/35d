@@ -17,6 +17,8 @@ module.exports = {
   description: "@___35dのブログです。",
   head: [
     ["meta", { title: "35d" }],
+    ["meta", { property: "og:title", content: "35d" }],
+    ["meta", { property: "og:description", content: "@___35dのブログです。" }],
     ["meta", { property: "og:image", content: "https://35d.jp/og-image.jpg" }],
     ["meta", { property: "twitter:card", content: "summary" }],
     ["link", { rel: "icon", href: "/favicon.png" }],
