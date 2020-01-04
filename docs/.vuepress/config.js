@@ -17,7 +17,7 @@ module.exports = {
   description: "@___35dのブログです。",
   head: [
     ["meta", { title: "35d" }],
-    ["meta", { property: "og:image", content: "/og-image.jpg" }],
+    ["meta", { property: "og:image", content: "https://35d.jp/og-image.jpg" }],
     ["meta", { property: "twitter:card", content: "summary" }],
     ["link", { rel: "icon", href: "/favicon.png" }],
     ["script", { "data-ad-client": "ca-pub-6440039437376764", async: true, src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" }]
