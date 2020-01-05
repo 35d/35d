@@ -70,6 +70,17 @@ export default {
     this.$router.afterEach(() => {
       this.isSidebarOpen = false;
     });
+
+    const text = ` ================================= 
+‖                                ‖
+‖ ブログへのフィードバックお待ちしております ‖
+‖                                ‖
+‖              👇                ‖
+‖                                ‖
+‖   https://twitter.com/___35d   ‖
+‖                                ‖
+ ================================= `;
+    console.log(text);
   },
 
   methods: {
