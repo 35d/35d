@@ -103,7 +103,7 @@ export default {
 };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 html
   color: #000
   background: #fff
