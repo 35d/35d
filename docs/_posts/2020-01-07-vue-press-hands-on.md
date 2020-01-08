@@ -31,7 +31,7 @@ meta:
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">VuePress 執筆体験最高なのでオススメです。ハンズオンもやるので気になる方もしいれば、お声がけください🙌 環境構築からデプロイまでサポートしまっす！！！<a href="https://t.co/EDyZLhlcRx">https://t.co/EDyZLhlcRx</a></p>&mdash; Yuji Tsuburaya (@___35d) <a href="https://twitter.com/___35d/status/1214846614377910272?ref_src=twsrc%5Etfw">January 8, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 こんなツイートもしましたが、もし「VuePress でブログ作ってみたい！」という方がいましたら、
-僕に声かけてくれれば、コーヒー一杯で VuePress ハンズオン実施するので、お気軽にどうぞ〜。
+僕に声かけてくれれば、コーヒー一杯で VuePress ハンズオン実施するので、お気軽にどうぞ。DM ください。
 
 ---
 
