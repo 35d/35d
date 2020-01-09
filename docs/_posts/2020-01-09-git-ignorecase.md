@@ -1,7 +1,7 @@
 ---
 title: ローカルではビルド通るのに、Netlify 上ではビルドが通らないという現象にちょっとハマった
 date: 2020-01-09
-category: log
+category: development
 tags:
   - Netlify
   - Git
