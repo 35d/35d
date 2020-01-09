@@ -84,7 +84,6 @@ export default {
       });
       return _.orderBy(posts, ["title"], ["desc"]);
     }
-    }
   },
 
   mounted() {
