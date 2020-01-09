@@ -22,10 +22,6 @@ export default {
         .map(post => {
           post.title = `${moment(post.frontmatter.date).format("YYYY/MM/DD")} ${post.title}`;
           return post;
-        })
-        .filter(post => {
-          console.log(post);
-          return true;
         });
       return _.orderBy(posts, ["title"], ["desc"]);
     },
