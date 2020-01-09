@@ -16,7 +16,7 @@
       <h2>{{ title }}</h2>
       <ul>
         <li v-for="post in posts">
-          <a v-bind:href="post.path">{{ post.title }}</a>
+          <a v-bind:href="post.path">{{ post.frontmatter.date }} {{ post.title }}</a>
         </li>
       </ul>
     </div>
@@ -24,6 +24,8 @@
 </template>
 
 <script>
+import moment from "moment";
+
 import Home from "@theme/components/Home.vue";
 import Navbar from "@theme/components/Navbar.vue";
 import Page from "@theme/components/Page.vue";
@@ -75,7 +77,10 @@ export default {
     },
 
     posts() {
-      return this.$pagination.pages;
+      return this.$pagination.pages.map(post => {
+        post.frontmatter.date = moment(post.frontmatter.date).format("YYYY/MM/DD");
+        return post;
+      });
     }
   },
 
