@@ -23,8 +23,11 @@ export default {
           post.frontmatter.date = moment(post.frontmatter.date).format("YYYY/MM/DD");
           return post;
         })
-        .sort(() => -1);
-      // .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
+        .filter(post => {
+          console.log(post);
+          return true;
+        })
+        .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
     },
     categories() {
       return [];
