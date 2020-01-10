@@ -7,17 +7,11 @@
 </template>
 
 <script>
-import moment from "moment";
-
 export default {
   computed: {
     tags() {
       return this.$frontmatterKey.list;
-    },
-    date() {
-      return "";
     }
-  },
-  mounted() {}
+  }
 };
 </script>
