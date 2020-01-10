@@ -7,9 +7,6 @@
 
 <script>
 export default {
-  components: {},
-  computed: {},
-  mounted() {},
   methods: {
     // note: 記事ページにのみ広告を表示する
     shouldShowAd() {
