@@ -14,7 +14,7 @@ meta:
   - name: og:type
     content: article
   - name: og:image
-    content: /ogp/2020-01-10-1.png
+    content: https://35d.jp/ogp/2020-01-10-1.png
 ---
 
 # VuePress で作ったブログに Google Adsense を導入する
