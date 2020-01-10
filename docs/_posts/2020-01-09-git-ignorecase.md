@@ -9,7 +9,7 @@ meta:
   - name: og:title
     content: ローカルではビルド通るのに、Netlify 上ではビルドが通らないという現象にちょっとハマった
   - name: og:description
-    content: 手元ではビルド通るのに、Netlify 上ではビルドが通らないという現象でちょっとハマった
+    content: 原因は Vue のファイル名の大文字・小文字が間違っていた、ということだったのですが、ファイル名の大文字・小文字が Git で差分として出ないということを知りませんでした。
   - name: og:type
     content: article
 ---
