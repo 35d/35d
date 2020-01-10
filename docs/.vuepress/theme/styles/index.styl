@@ -192,6 +192,14 @@ th, td
 twitter-widget 
   margin: 0 auto;
 
+iframe
+  margin-top: 24px;
+  margin: 16px auto;
+  width: calc(100%);
+  display: block;
+
+  @media (min-width: ($MQMobile + 1px))
+    width: calc(100% - 32px);
 
 @media (min-width: ($MQMobile + 1px))
   .theme-container.no-sidebar
