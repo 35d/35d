@@ -73,7 +73,7 @@ module.exports = {
         hostname: "https://35d.jp/",
         changefreq: "hourly"
       }
-    ],
-    ["@vuepress/nprogress"]
+    ]
+    // ["@vuepress/nprogress"]
   ]
 };
