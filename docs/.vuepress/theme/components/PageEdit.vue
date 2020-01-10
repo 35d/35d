@@ -5,16 +5,15 @@
         <a v-bind:href="'/blog/tags/' + tag + '/'" style="margin-right: 8px;">{{ tag }}</a>
       </li>
     </ul>
-    <ResponsiveAdsense />
     <div class="edit-link" v-if="editLink">
       <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
       <OutboundLink />
     </div>
-
     <div class="last-updated" v-if="lastUpdated">
       <span class="prefix">{{ lastUpdatedText }}:</span>
       <span class="time">{{ lastUpdated }}</span>
     </div>
+    <ResponsiveAdsense />
   </footer>
 </template>
 <script>
