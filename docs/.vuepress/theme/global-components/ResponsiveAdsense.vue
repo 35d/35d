@@ -1,7 +1,7 @@
 <template>
   <div class="ads-area" v-if="shouldShowAd()">
     <p class="ads">ADS</p>
-    <div><Adsense data-ad-client="ca-pub-6440039437376764" data-ad-slot="9351153286"></Adsense>s</div>
+    <div><Adsense data-ad-client="ca-pub-6440039437376764" data-ad-slot="9351153286"></Adsense></div>
   </div>
 </template>
 
