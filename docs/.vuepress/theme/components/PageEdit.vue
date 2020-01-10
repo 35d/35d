@@ -5,7 +5,7 @@
         <a v-bind:href="'/blog/tags/' + tag + '/'" style="margin-right: 8px;">{{ tag }}</a>
       </li>
     </ul>
-    <Adsense />
+    <ResponsiveAdsense />
     <div class="edit-link" v-if="editLink">
       <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
       <OutboundLink />
@@ -20,11 +20,14 @@
 <script>
 import isNil from "lodash/isNil";
 import { endingSlashRE, outboundRE } from "../util";
-import Adsense from "../global-components/Adsense";
+import ResponsiveAdsense from "../global-components/ResponsiveAdsense";
 
 export default {
   name: "PageEdit",
   props: ["tags"],
+  components: {
+    ResponsiveAdsense
+  },
   computed: {
     lastUpdated() {
       return this.$page.lastUpdated;
