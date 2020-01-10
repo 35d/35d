@@ -1,7 +1,7 @@
 <template>
-  <div class="ads-area">
+  <div class="ads-area" v-if="showAd()">
     <p class="ads">ADS</p>
-    <Adsense data-ad-client="ca-pub-6440039437376764" data-ad-slot="9351153286"></Adsense>
+    <div><Adsense data-ad-client="ca-pub-6440039437376764" data-ad-slot="9351153286"></Adsense>s</div>
   </div>
 </template>
 
@@ -9,7 +9,13 @@
 export default {
   components: {},
   computed: {},
-  mounted() {}
+  mounted() {},
+  methods: {
+    showAd() {
+      // TODO 表示条件を付ける
+      return false;
+    }
+  }
 };
 </script>
 
