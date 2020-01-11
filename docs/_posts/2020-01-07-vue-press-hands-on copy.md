@@ -1,7 +1,7 @@
 ---
 title: VuePress ハンズオンをした
 date: 2020-01-07
-category: log
+category: development
 tags:
   - VuePress
   - Vue.js
