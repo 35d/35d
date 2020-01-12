@@ -1,0 +1,40 @@
+---
+title: 「自己肯定感の教科書」を読んだ
+date: 2020-01-11
+category: log
+tags:
+  - 音楽
+meta:
+  - name: og:title
+    content: 「自己肯定感の教科書」を読んだ
+  - name: og:description
+    content: MONO NO AWARE、Tempalay、中村佳穂、King Gnu
+  - name: og:type
+    content: article
+  # - name: og:image
+  # content: https://35d.jp/ogp/2020-01-10-1.png
+---
+
+# 最近よく聴いている音楽 (2020 年 1 月)
+
+## MONO NO AWARE
+
+<iframe height="315" src="https://www.youtube.com/embed/oqu96zlXLq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Tempalay
+
+<iframe height="315" src="https://www.youtube.com/embed/TRpAf1aqw3g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 中村佳穂
+
+<iframe height="315" src="https://www.youtube.com/embed/DGmQRSUuKFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## King Gnu
+
+<iframe height="315" src="https://www.youtube.com/embed/g4_nRpHotMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">そのうち Tempalay のライブ行ってみたいな〜。</p>&mdash; Yuji Tsuburaya (@___35d) <a href="https://twitter.com/___35d/status/1215491524693069825?ref_src=twsrc%5Etfw">January 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+最近よく聴いている音楽の記録。King Gnu 以外はライブ行ったことないから行ってみたい。
