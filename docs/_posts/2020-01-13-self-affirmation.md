@@ -8,7 +8,7 @@ meta:
   - name: og:title
     content: 「自己肯定感の教科書」を読んだ
   - name: og:description
-    content: __
+    content: 読みました。僕自身、自己肯定感がすこぶる低い人間だなという自覚があり、自己理解を深めるために読みました。自己肯定感について誤解していた部分や、自己肯定感の高め方についてのインプットをすることができたのがこの本を読んだ収穫でした。
   - name: og:type
     content: article
   # - name: og:image
