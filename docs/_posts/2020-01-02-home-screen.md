@@ -6,11 +6,11 @@ tags:
   - ホーム画面
   - iPhone
 meta:
-  - name: og:title
+  - property:  og:title
     content: ホーム画面（2019年1月）
-  - name: og:description
+  - property:  og:description
     content: iPhoneホーム画面を定期的に晒す。
-  - name: og:type
+  - property:  og:type
     content: article
 ---
 

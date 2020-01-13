@@ -5,13 +5,13 @@ category: zatsu
 tags:
   - バターコーヒー
 meta:
-  - name: og:title
+  - property:  og:title
     content: バターコーヒー生活はじめました
-  - name: og:description
+  - property:  og:description
     content: 年末から朝にバターコーヒーを飲むという生活をはじめました。毎朝、朝食を食べる代わりにバターコーヒーを飲んでいます。お昼にお腹すくし、良い感じ。健康にも良い気がしています。
-  - name: og:type
+  - property:  og:type
     content: article
-  - name: og:image
+  - property:  og:image
     content: https://35d.jp/ogp/2020-01-05-3.jpg
 ---
 

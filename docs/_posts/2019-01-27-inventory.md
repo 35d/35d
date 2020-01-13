@@ -9,11 +9,11 @@ tags:
   - Vue.js
   - スプラトゥーン2
 meta:
-  - name: og:title
+  - property:  og:title
     content: 棚卸し(2019年1月)
-  - name: og:description
+  - property:  og:description
     content: 相変わらず仕事もプライベートも React Native ばかり書いている。昨年末に仕事で書いたブログがはてぶ50を超えてちょっとだけPVがついたりした。
-  - name: og:type
+  - property:  og:type
     content: article
 ---
 

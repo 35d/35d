@@ -7,13 +7,13 @@ tags:
   - Vue.js
   - GitHub Actions
 meta:
-  - name: og:title
+  - property:  og:title
     content: GitHub Actions で Vue.js のビルドをして FTP サーバー経由で自動デプロイ
-  - name: og:description
+  - property:  og:description
     content: タイトルの通りなのですが、Vue.js プロジェクトの検証環境がほしいというお願いをされ、GitHub Actions を使ってビルドとデプロイを自動化してみました。
-  - name: og:type
+  - property:  og:type
     content: article
-  - name: og:image
+  - property:  og:image
     content: /ogp/2019-12-30.png
 ---
 
@@ -57,9 +57,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: npm i && npm run build
+      - property:  npm i && npm run build
         run: cd htdocs && npm i && npm run build
-      - name: git-ftp push
+      - property:  git-ftp push
         uses: SamKirkland/FTP-Deploy-Action@2.0.0
         env:
           FTP_SERVER: [ServerName]
