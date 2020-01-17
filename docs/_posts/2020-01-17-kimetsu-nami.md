@@ -10,11 +10,11 @@ meta:
   - property: og:title
     content: 鬼滅の刃・波よ聞いてくれ
   - property: og:description
-    content: 僕の大好きな Notion にアップデートがありました。v2.7 のリリースです。大きな目玉は、Quick Find 機能の改善。タイトルでの検索や、検索結果のフィルタリングができるようになりました。Quick Find 機能は `Command + P` で使用することができます。
+    content: 最近読んだ漫画たちのお話です。
   - property: og:type
     content: article
   - property: og:image
-    content: https://35d.jp/ogp/2020-01-16-1.jpg
+    content: https://35d.jp/ogp/2020-01-17-2.jpg
 ---
 
 # 鬼滅の刃・波よ聞いてくれ
