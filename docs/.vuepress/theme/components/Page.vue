@@ -3,6 +3,7 @@
     <slot name="top" />
 
     <Content class="theme-default-content" />
+
     <PageEdit :tags="tags" />
 
     <PageNav v-bind="{ sidebarItems }" />
