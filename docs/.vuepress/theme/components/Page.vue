@@ -33,4 +33,9 @@ img + em {
   text-align: center;
   display: block;
 }
+
+img + strong {
+  text-align: center;
+  display: block;
+}
 </style>
