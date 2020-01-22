@@ -8,6 +8,7 @@ module.exports = {
     search: false, // 検索ボックス非表示
     lastUpdated: "最終更新日時",
     nav: [
+      { text: "ブログトップ", link: "/blog/" },
       { text: "技術", link: "/blog/categories/development/" },
       { text: "記録", link: "/blog/categories/log/" },
       { text: "雑", link: "/blog/categories/zatsu/" },
