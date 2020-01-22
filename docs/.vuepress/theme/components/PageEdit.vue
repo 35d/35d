@@ -14,12 +14,24 @@
       <span class="time">{{ lastUpdated }}</span>
     </div>
     <ResponsiveAdsense />
+    <template v-if="shouldShowPopularPosts()">
+      <h3>
+        人気記事
+      </h3>
+      <ul>
+        <li v-for="post in _popularPosts">
+          <a :href="post.url">{{ post.title }}</a>
+        </li>
+      </ul>
+    </template>
   </footer>
 </template>
 <script>
 import isNil from "lodash/isNil";
 import { endingSlashRE, outboundRE } from "../util";
 import ResponsiveAdsense from "../global-components/ResponsiveAdsense";
+import popularPosts from "../popularPosts";
+import _ from "lodash";
 
 export default {
   name: "PageEdit",
@@ -28,6 +40,9 @@ export default {
     ResponsiveAdsense
   },
   computed: {
+    _popularPosts() {
+      return _.shuffle(popularPosts).slice(0, 5);
+    },
     lastUpdated() {
       return this.$page.lastUpdated;
     },
@@ -57,8 +72,11 @@ export default {
       return this.$themeLocaleConfig.editLinkText || this.$site.themeConfig.editLinkText || `Edit this page`;
     }
   },
-
   methods: {
+    // note: 記事ページにのみ広告を表示する
+    shouldShowPopularPosts() {
+      return this.$frontmatter.layout === "Post";
+    },
     createEditLink(repo, docsRepo, docsDir, docsBranch, path) {
       const bitbucket = /bitbucket.org/;
       if (bitbucket.test(repo)) {
