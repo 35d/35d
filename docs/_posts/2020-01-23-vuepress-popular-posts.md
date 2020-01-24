@@ -11,8 +11,6 @@ meta:
     content: 表題の通りですが、記事下に人気記事を出すようにしました。人気記事は自動で選定されるのではなく、自分が Google Analytics を見て数記事ピックアップしたものを表示するようにしています。
   - property: og:type
     content: article
-  - property: og:image
-    content: https://35d.jp/ogp/2020-01-22-4.png
 ---
 
 # VuePress で記事下に人気記事を出す（手動）
@@ -60,7 +58,6 @@ export default [
 ```
 
 この js をインポートし、以下のようにループを回して描画します。
-`shouldShowPopularPosts()` で、記事ページかどうかを判定し、記事ページだった場合にのみ人気記事を表示するようにしています。
 
 ```vue
 // PageEdit.vue
@@ -75,6 +72,15 @@ export default [
     </li>
   </ul>
 </template>
+```
+
+`shouldShowPopularPosts()` で、記事ページかどうかを判定し、記事ページだった場合にのみ人気記事を表示するようにしています。
+メソッドの実装は以下のような感じ。（ちょっと判定が微妙かもしれないので、もし良いやり方見つけた人は教えて下さい。）
+
+```js
+shouldShowPopularPosts() {
+  return this.$frontmatter.layout === "Post";
+},
 ```
 
 みなさんも記事下に人気記事を置いてみてはいかがでしょうか？
