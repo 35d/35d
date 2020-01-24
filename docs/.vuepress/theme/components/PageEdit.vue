@@ -13,7 +13,7 @@
       <span class="prefix">{{ lastUpdatedText }}:</span>
       <span class="time">{{ lastUpdated }}</span>
     </div>
-    <ResponsiveAdsense />
+    <RectangleAdsense />
     <template v-if="shouldShowPopularPosts()">
       <h3>
         人気記事
@@ -29,7 +29,8 @@
 <script>
 import isNil from "lodash/isNil";
 import { endingSlashRE, outboundRE } from "../util";
-import ResponsiveAdsense from "../global-components/ResponsiveAdsense";
+// import ResponsiveAdsense from "../global-components/ResponsiveAdsense";
+import RectangleAdsense from "../global-components/RectangleAdsense";
 import popularPosts from "../popularPosts";
 import _ from "lodash";
 
@@ -37,7 +38,7 @@ export default {
   name: "PageEdit",
   props: ["tags"],
   components: {
-    ResponsiveAdsense
+    RectangleAdsense
   },
   computed: {
     _popularPosts() {
