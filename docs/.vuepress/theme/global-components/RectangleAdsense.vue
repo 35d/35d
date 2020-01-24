@@ -41,7 +41,7 @@ export default {
 
 .ads {
   /* background-color: red; */
-  height: 250px;
+  height: 300px;
   min-width: 300px;
 }
 @media screen and (max-width: 660px) {
