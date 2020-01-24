@@ -8,7 +8,7 @@ meta:
   - property: og:title
     content: オバ犬が下北沢で路上ライブしてた
   - property: og:description
-    content: 表題の通りですが、記事下に人気記事を出すようにしました。人気記事は自動で選定されるのではなく、自分が Google Analytics を見て数記事ピックアップしたものを表示するようにしています。
+    content: 仕事を終え、下北沢でご飯を食べて帰ろうとしたところ、駅前でオバ犬こと OVER THE DOGS の恒吉さんがが路上ライブをしていました。
   - property: og:type
     content: article
 ---
