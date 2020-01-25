@@ -13,7 +13,7 @@
   /* border: 1px solid; */
   list-style: none;
   margin: 0;
-  padding: 0.5em;
+  padding: 0;
 }
 .breadcrumbs__item {
   display: inline;
