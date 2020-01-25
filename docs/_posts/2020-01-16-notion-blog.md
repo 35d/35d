@@ -16,6 +16,8 @@ meta:
     content: https://35d.jp/ogp/2020-01-16-11.png
 ---
 
+<PostTop />
+
 # Notion Blog を使って、いま最もモダンなブログ環境を構築する
 
 ![Notion Blog を使って、いま最もモダンなブログ環境を構築する](https://35d.jp/ogp/2020-01-16-11.png)

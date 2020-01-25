@@ -7,13 +7,15 @@ tags:
   - 鬼滅の刃
   - 漫画
 meta:
-  - property:  og:title
+  - property: og:title
     content: 初詣・テラスハウス・鬼滅の刃
-  - property:  og:description
+  - property: og:description
     content: 新年あけましておめでとうございます。今年もよろしくお願いします。
-  - property:  og:type
+  - property: og:type
     content: article
 ---
+
+<PostTop />
 
 # 初詣・テラスハウス・鬼滅の刃
 

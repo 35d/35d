@@ -11,13 +11,15 @@ tags:
   - Vue.js
   - NuxtJS
 meta:
-  - property:  og:title
+  - property: og:title
     content: 棚卸し(2019年10月)
-  - property:  og:description
+  - property: og:description
     content: 気づいたら 2019 年も半分が終わってしまっているんですね。今月も棚卸しやっていきたいと思います。(タイトルが棚卸しってなっているけど、実質やってることは３ヶ月の振り返りです)
-  - property:  og:type
+  - property: og:type
     content: article
 ---
+
+<PostTop />
 
 # 棚卸し(2019 年 10 月)
 

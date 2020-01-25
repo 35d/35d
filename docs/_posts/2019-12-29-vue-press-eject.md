@@ -5,13 +5,15 @@ category: development
 tags:
   - VuePress
 meta:
-  - property:  og:title
+  - property: og:title
     content: VuePress のデフォルトテーマを eject する
-  - property:  og:description
+  - property: og:description
     content: もろもろいじりたいところがあり、かつ、もとのテーマの資産も流用したい、ということで eject して、それを加工していくことにしました。
-  - property:  og:type
+  - property: og:type
     content: article
 ---
+
+<PostTop />
 
 # VuePress のデフォルトテーマを eject する
 

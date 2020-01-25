@@ -7,15 +7,17 @@ tags:
   - Vue.js
   - GitHub Actions
 meta:
-  - property:  og:title
+  - property: og:title
     content: GitHub Actions で Vue.js のビルドをして FTP サーバー経由で自動デプロイ
-  - property:  og:description
+  - property: og:description
     content: タイトルの通りなのですが、Vue.js プロジェクトの検証環境がほしいというお願いをされ、GitHub Actions を使ってビルドとデプロイを自動化してみました。
-  - property:  og:type
+  - property: og:type
     content: article
-  - property:  og:image
+  - property: og:image
     content: /ogp/2019-12-30.png
 ---
+
+<PostTop />
 
 # GitHub Actions で Vue.js のビルドをして FTP サーバー経由で自動デプロイ
 

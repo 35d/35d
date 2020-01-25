@@ -15,6 +15,8 @@ meta:
     content: https://35d.jp/ogp/2020-01-22-4.png
 ---
 
+<PostTop />
+
 # Notion を企業のタスク・ドキュメント管理ツールとして運用する
 
 いろんな企業に [Notion](https://www.notion.so) を導入し、

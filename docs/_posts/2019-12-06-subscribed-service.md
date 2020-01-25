@@ -6,15 +6,17 @@ tags:
   - Notion
   - お金
 meta:
-  - property:  og:title
+  - property: og:title
     content: 2019 年 お金を払っている購読型サービス
-  - property:  og:description
+  - property: og:description
     content: 定期的にやってる購読型サービスの棚卸し。今回はオンラインサービスに限らず洗い出すことにした。ちなみに前回のはこちら。
-  - property:  og:type
+  - property: og:type
     content: article
-  - property:  og:image
+  - property: og:image
     content: /ogp/2019-12-06.png
 ---
+
+<PostTop />
 
 # 2019 年 お金を払っている購読型サービス
 

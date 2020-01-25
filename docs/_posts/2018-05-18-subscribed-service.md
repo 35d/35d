@@ -5,13 +5,15 @@ category: log
 tags:
   - お金
 meta:
-  - property:  og:title
+  - property: og:title
     content: 2018 年上半期 お金を払っている購読型サービス
-  - property:  og:description
+  - property: og:description
     content: サブスクリプション(購読)型のサービスに限定して洗い出してみた。こういうの書いておくと後から見返したときに良さそう。
-  - property:  og:type
+  - property: og:type
     content: article
 ---
+
+<PostTop />
 
 # 2018 年上半期 お金を払っている購読型サービス
 

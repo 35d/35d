@@ -17,6 +17,8 @@ meta:
     content: https://35d.jp/ogp/2020-01-17-2.jpg
 ---
 
+<PostTop />
+
 # 鬼滅の刃・波よ聞いてくれ
 
 最近読んだ漫画たちのお話です。

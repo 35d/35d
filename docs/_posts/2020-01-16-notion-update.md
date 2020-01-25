@@ -15,6 +15,8 @@ meta:
     content: https://35d.jp/ogp/2020-01-16-1.jpg
 ---
 
+<PostTop />
+
 # Notion v2.7 リリース。Quick Find 機能のカイゼン等
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Notion からアップデートのお知らせ届いてた。検索機能のカイゼンとかが入ったっぽい。 <a href="https://t.co/3V8aMFGEW2">pic.twitter.com/3V8aMFGEW2</a></p>&mdash; Yuji Tsuburaya (@___35d) <a href="https://twitter.com/___35d/status/1217235472927186944?ref_src=twsrc%5Etfw">January 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

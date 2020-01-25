@@ -11,13 +11,15 @@ tags:
   - Expo
   - YouTube
 meta:
-  - property:  og:title
+  - property: og:title
     content: 棚卸し(2019年4月)
-  - property:  og:description
+  - property: og:description
     content: 会社での React Native のプロジェクトが一段落しました。ここ 3 ヶ月ほど、ビズリーチ・キャンパス for Student の Android アプリの開発をしており、それが先日無事リリースできました。正直ホッとしています。これで iOS と Android の両プラットフォームに対応できたことになりました。思ったより長い道のりだったなあって感じですが、同一コードで両プラットフォームで動く React Native の良さがようやく出たかなと思いました。技術的な話はそのうち別の記事で書きたい気持ちです。
-  - property:  og:type
+  - property: og:type
     content: article
 ---
+
+<PostTop />
 
 # 棚卸し(2019 年 4 月)
 

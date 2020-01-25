@@ -5,15 +5,17 @@ category: development
 tags:
   - Mac
 meta:
-  - property:  og:title
+  - property: og:title
     content: MacOS Catalina から Mojave にダウングレードした
-  - property:  og:description
+  - property: og:description
     content: メインで使っているマシンを MacOS Catalina から Mojave にダウングレードしました。動画配信で使っているキャプチャーボードとの相性がすこぶる悪く、ゲーム配信や録画がうまくできなくなってしまったためです(悲しい)。色々と試行錯誤を繰り返した＆まとまったドキュメントがなかなか見つからなかったので手順をメモしておきます。
-  - property:  og:image
+  - property: og:image
     content: /ogp/2019-12-29-1.png
-  - property:  og:type
+  - property: og:type
     content: article
 ---
+
+<PostTop />
 
 # MacOS Catalina から Mojave にダウングレードした
 

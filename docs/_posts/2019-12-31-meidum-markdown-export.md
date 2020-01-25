@@ -7,13 +7,15 @@ tags:
   - VuePress
   - Markdown
 meta:
-  - property:  og:title
+  - property: og:title
     content: Medium から Markdown ファイルをエクスポートする
-  - property:  og:description
+  - property: og:description
     content: Medium で書いていたブログをこの VuePress ブログにインポートするにあたって、Medium の記事を Markdown 形式でエクスポートするやり方を調べたのでブログにまとめておこうと思います。
-  - property:  og:type
+  - property: og:type
     content: article
 ---
+
+<PostTop />
 
 # Medium から Markdown ファイルをエクスポートする
 

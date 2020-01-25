@@ -5,13 +5,15 @@ category: development
 tags:
   - iOS
 meta:
-  - property:  og:title
+  - property: og:title
     content: iOS アプリの証明書の更新をした（iOS Distribution Certificate Expires in 30 Days）
-  - property:  og:description
+  - property: og:description
     content: 記事を参考に言われるがまま更新作業を行いました。正直良くわかってない部分も多くて、こういうもんなんだな、という気持ちが強いけど、ひとまず更新をしましたという記録でした。
-  - property:  og:type
+  - property: og:type
     content: article
 ---
+
+<PostTop />
 
 # iOS アプリの証明書の更新をした（iOS Distribution Certificate Expires in 30 Days）
 

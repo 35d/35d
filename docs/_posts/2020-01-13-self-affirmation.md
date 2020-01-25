@@ -5,15 +5,17 @@ category: zatsu
 tags:
   - 読書ログ
 meta:
-  - property:  og:title
+  - property: og:title
     content: 「自己肯定感の教科書」を読んだ
-  - property:  og:description
+  - property: og:description
     content: 読みました。僕自身、自己肯定感がすこぶる低い人間だなという自覚があり、自己理解を深めるために読みました。自己肯定感について誤解していた部分や、自己肯定感の高め方についてのインプットをすることができたのがこの本を読んだ収穫でした。
-  - property:  og:type
+  - property: og:type
     content: article
   # - property:  og:image
   # content: https://35d.jp/ogp/2020-01-13-1.jpg
 ---
+
+<PostTop />
 
 # 「自己肯定感の教科書」を読んだ
 

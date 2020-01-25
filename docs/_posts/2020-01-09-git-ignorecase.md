@@ -6,13 +6,15 @@ tags:
   - Netlify
   - Git
 meta:
-  - property:  og:title
+  - property: og:title
     content: ローカルではビルド通るのに、Netlify 上ではビルドが通らないという現象にちょっとハマった
-  - property:  og:description
+  - property: og:description
     content: 原因は Vue のファイル名の大文字・小文字が間違っていた、ということだったのですが、ファイル名の大文字・小文字が Git で差分として出ないということを知りませんでした。
-  - property:  og:type
+  - property: og:type
     content: article
 ---
+
+<PostTop />
 
 # 手元ではビルド通るのに、Netlify 上ではビルドが通らないという現象にちょっとハマった
 

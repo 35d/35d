@@ -13,6 +13,8 @@ meta:
     content: article
 ---
 
+<PostTop />
+
 # VuePress で記事下に人気記事を出す（手動）
 
 表題の通りですが、記事下に人気記事を出すようにしました。

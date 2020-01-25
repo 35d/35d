@@ -6,13 +6,15 @@ tags:
   - VuePress
   - Vue.js
 meta:
-  - property:  og:title
+  - property: og:title
     content: VuePress ハンズオンをした
-  - property:  og:description
+  - property: og:description
     content: 年末 VuePress をいじりまくって知見がたまったので、デザイナーの後輩に VuePress のハンズオンをしました。
-  - property:  og:type
+  - property: og:type
     content: article
 ---
+
+<PostTop />
 
 # VuePress ハンズオンをした
 

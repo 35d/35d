@@ -5,13 +5,15 @@ category: log
 tags:
   - お金
 meta:
-  - property:  og:title
+  - property: og:title
     content: 2018 年下半期 お金を払っている購読型サービス
-  - property:  og:description
+  - property: og:description
     content: 定期的にやってる購読型サービスの棚卸し。今回はオンラインサービスに限らず洗い出すことにした。
-  - property:  og:type
+  - property: og:type
     content: article
 ---
+
+<PostTop />
 
 # 2018 年下半期 お金を払っている購読型サービス
 
