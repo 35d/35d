@@ -1,7 +1,7 @@
 ---
 title: プロダクションビルド時に console.log を消す babel プラグインを Vue.js と Nuxt.js に導入する
 date: 2020-01-28
-category: zatsu
+category: development
 tags:
   - Vue.js
   - Nuxt.js
