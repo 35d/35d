@@ -7,41 +7,60 @@
     <div class="c-profile">
       <figure class="c-profile_figure">
         <img src="../../../assets/img/top/35d.gif" alt="___35d" class="c-profile_image" />
-        <figcaption class="c-profile_caption">@___35d のポートフォリオサイトです</figcaption>
+        <figcaption class="c-profile_caption">@___35d</figcaption>
       </figure>
       <!-- <div class="c-line"></div> -->
       <div>
         <ul class="c-linkArea">
           <li class="c-linkArea__list">
-            <a href="#" @click="() => clickLink('PROFILE')">PROFILE</a>
+            <a href="#" @click.self="() => clickLink('PROFILE')" :class="[{ 'c-linkArea__list-active': activeContent === 'PROFILE' }]">PROFILE</a>
           </li>
           <li class="c-linkArea__list">
-            <a href="/blog">BLOG</a>
+            <a href="#" @click.self="() => clickLink('BLOG')" :class="[{ 'c-linkArea__list-active': activeContent === 'BLOG' }]">BLOG</a>
           </li>
           <li class="c-linkArea__list">
-            <a href="#" @click="() => clickLink('WORKS')">WORKS</a>
+            <a href="#" @click="() => clickLink('WORKS')" :class="[{ 'c-linkArea__list-active': activeContent === 'WORKS' }]">WORKS</a>
           </li>
           <li class="c-linkArea__list">
-            <a href="#" @click="() => clickLink('LINKS')">LINKS</a>
+            <a href="#" @click="() => clickLink('CONTACT')" :class="[{ 'c-linkArea__list-active': activeContent === 'CONTACT' }]">CONTACT</a>
           </li>
         </ul>
       </div>
       <div class="c-contentArea" v-if="!!activeContent">
         <div v-if="activeContent === 'PROFILE'">
-          <p>
+          <p style="font-size: 15px;">
+            Yuji Tsuburaya (@___35d)<br />
+            <span style="display: block; margin-bottom: 8px;"></span>
+            🏠 Shomikitazawa / Tokyo<br />
+            👩‍💻 Frontend Engineer / Vue.js / React <br />
+            🏢 <a href="j-cat.co.jp" target="_blank" class="link">j-cat.co.jp</a> CTO / Co-Founder (2019/11-) <br />
+            <span style="margin-left: 18px;"></span>ex. BizReach (2016-2019)<br />
+            <span style="margin-left: 18px;"></span>ex. RICOH(2015-2016)<br />
+            🎨 by @ch1ch1ch1_123<br />
+            💚 Minimalism / Notion / GTD / Splatoon2<br />
+          </p>
+          <p style="font-size: 14px;">
+            <br />
             - 1990年 福島県郡山市生まれ。<br />
-            - 2015年 筑波大学大学院 数理物質科学研究科専攻 終了。同年、株式会社リコーに入社。SEとしてIT製品のソフトウェア開発を担当。<br />
-            - 2016年 株式会社ビズリーチにフロントエンドエンジニアとして入社。 複数のWebアプリ・ネイティブアプリ開発の経験を積み、2017年に社内で技術者賞として表彰。<br />
+            - 2015年 筑波大学大学院 数理物質科学研究科専攻修了。<br />
+            同年、株式会社リコーに入社。SEとしてIT製品のソフトウェア開発を担当。<br />
+            - 2016年 株式会社ビズリーチにフロントエンドエンジニアとして入社。<br />
+            複数のWebアプリ・ネイティブアプリ開発の経験を積み、2017年に社内で技術者賞として表彰。<br />
             - 2019年から現在まで Japan Culture and Technology 株式会社 CTO / Founder。
+          </p>
+        </div>
+        <div v-if="activeContent === 'BLOG'">
+          <p class="tac" style="font-size: 14px">
+            <a href="https://medium.com/35d" target="_blank" class="link">Medium</a> からお引越ししました<br />👇<br /><a href="/blog" class="link">新ブログ</a>
           </p>
         </div>
         <div v-if="activeContent === 'WORKS'">
           <p>そのうち書く</p>
         </div>
-        <div v-if="activeContent === 'LINKS'" class="c-snsArea">
-          <p><a href="https://twitter.com/___35d" target="_blank">TWITTER</a></p>
-          <p><a href="https://www.facebook.com/yuji.tsuburaya" target="_blank">FACEBOOK</a></p>
-          <p><a href="https://github.com/35d" target="_blank">GITHUB</a></p>
+        <div v-if="activeContent === 'CONTACT'" class="c-snsArea">
+          <p><a href="https://twitter.com/___35d" target="_blank" class="link">TWITTER</a></p>
+          <p><a href="https://www.facebook.com/yuji.tsuburaya" target="_blank" class="link">FACEBOOK</a></p>
+          <p><a href="https://github.com/35d" target="_blank" class="link">GITHUB</a></p>
           <!-- <ul>
             <li>
               <a href="https://twitter.com/___35d" target="_blank">
@@ -79,7 +98,7 @@ export default {
   data() {
     return {
       isDarkMode: true,
-      activeContent: ""
+      activeContent: "PROFILE" // デフォルトプロフィール
     };
   },
   computed: {},
@@ -207,10 +226,12 @@ body
   overflow: hidden
 
 .l-main
+  padding-top: 64px
+  padding-bottom: 64px
+  min-height: 100vh
   display: flex
-  align-items: center
   justify-content: center
-  height: calc(100vh + 32px);
+  // height: calc(100vh + 32px);
   position: absolute
   left: 0
   right: 0
@@ -224,25 +245,33 @@ body
 .c-contentArea
 
 .c-linkArea
-  margin-bottom: 12px
+  margin-bottom: 24px
   display: flex;
 
   &__list
-    margin-right: 12px
+    margin-right: 32px
+    font-size: 16px
+
+    a
+      color: #FFF
+      font-weight: 200
 
     &:last-child
       margin-right: 0
 
+    &-active
+      text-decoration: underline
 
 .c-profile
   width: 300px
+  min-height: calc(100vh - 90px)
   display: flex
   flex-direction: column
   align-items: center
 
   &_
     &figure
-      margin-bottom: 12px
+      margin-bottom: 40px
       text-align: center
 
     &image
@@ -254,7 +283,7 @@ body
 
     &caption
       text-align: center
-      font-size: 12px;
+      font-size: 16px
 
     &list
       display: flex
@@ -300,4 +329,11 @@ body
 
   &caption
     text-align: center
+
+.tac
+  text-align: center
+
+.link
+  color: #ddd
+  text-decoration: underline
 </style>
