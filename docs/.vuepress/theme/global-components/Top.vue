@@ -49,13 +49,37 @@
             - 2019年から現在まで Japan Culture and Technology 株式会社 CTO / Founder。
           </p>
         </div>
+
         <div v-if="activeContent === 'BLOG'">
           <p class="tac" style="font-size: 14px">
             <a href="https://medium.com/35d" target="_blank" class="link">Medium</a> からお引越ししました<br />👇<br /><a href="/blog" class="link">新ブログ</a>
           </p>
         </div>
         <div v-if="activeContent === 'WORKS'">
-          <p>そのうち書く</p>
+          <p class="tac fs14">‍💻 個人開発</p>
+          <section class="works-section">
+            <h2 class="fs14 mb4">プランニングスクラムポーカー(2018)</h2>
+            <p class="works-description mb4">スクラム開発で使用する見積もり手法である、スクラムポーカーを実施することができる iOS アプリを作りました。</p>
+            <img src="../../../assets/img/top/planning.png" alt="プランニングスクラムポーカー App Store" class="works-img" />
+            <a
+              href="https://apps.apple.com/jp/app/%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%A0%E3%83%9D%E3%83%BC%E3%82%AB%E3%83%BC/id1454230109"
+              target="_blank"
+              class="works-link tac"
+              >プランニングスクラムポーカー(App Store)</a
+            >
+          </section>
+          <section class="works-section">
+            <h2 class="fs14 mb4">Bukumo (2017)</h2>
+            <p class="works-description mb4">読んだ本のメモが投稿・保存できて、投稿すると、アフィリエイト収入が得られるサービスを作りました。</p>
+            <img src="../../../assets/img/top/bukumo.png" alt="Bukumo スクリーンショット" class="works-img" />
+            <a href="https://bukumo.jp" target="_blank" class="works-link tac">bukumo.jp</a>
+          </section>
+          <section class="works-section">
+            <h2 class="fs14 mb4">インディーズバンド (2017)</h2>
+            <p class="works-description mb4">日本のインディーズバンドの紹介メディアを作りました。</p>
+            <img src="../../../assets/img/top/indies.png" alt="インディーズバンド スクリーンショット" class="works-img" />
+            <a href="https://indies.band" target="_blank" class="works-link tac"> indies.band</a>
+          </section>
         </div>
         <div v-if="activeContent === 'CONTACT'" class="c-snsArea">
           <p><a href="https://twitter.com/___35d" target="_blank" class="link">TWITTER</a></p>
@@ -228,16 +252,19 @@ body
 .l-main
   padding-top: 64px
   padding-bottom: 64px
-  min-height: 100vh
+  height: 100%;
   display: flex
   justify-content: center
+  margin-left: -2rem
+  width: calc(100% + 4rem)
   // height: calc(100vh + 32px);
-  position: absolute
+  // position: absolute
   left: 0
   right: 0
   top: 0
   bottom: 0
   margin-top: -32px!important
+  margin-bottom: -132px
 
 .c-snsArea
   text-align: center
@@ -336,4 +363,20 @@ body
 .link
   color: #ddd
   text-decoration: underline
+
+.mb4
+  margin-bottom: 4px
+
+.fs14
+  font-size: 14px
+
+.works-link
+  color: #EEE
+  display: block;
+
+.works-section
+  margin-bottom: 32px
+
+.theme-default-content
+  padding: 0
 </style>
