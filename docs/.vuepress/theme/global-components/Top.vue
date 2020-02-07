@@ -232,7 +232,7 @@ body
   display: flex
   justify-content: center
   // height: calc(100vh + 32px);
-  position: absolute
+  // position: absolute
   left: 0
   right: 0
   top: 0
