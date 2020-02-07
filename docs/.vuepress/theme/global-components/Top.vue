@@ -103,13 +103,13 @@ export default {
   },
   computed: {},
   mounted() {
-    window.addEventListener(
-      "touchmove",
-      function(event) {
-        event.preventDefault();
-      },
-      { passive: false }
-    );
+    // window.addEventListener(
+    //   "touchmove",
+    //   function(event) {
+    //     event.preventDefault();
+    //   },
+    //   { passive: false }
+    // );
   },
   methods: {
     onPressSwitch() {
@@ -232,7 +232,7 @@ body
   display: flex
   justify-content: center
   // height: calc(100vh + 32px);
-  // position: absolute
+  position: absolute
   left: 0
   right: 0
   top: 0
