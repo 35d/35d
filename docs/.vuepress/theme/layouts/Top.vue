@@ -54,9 +54,10 @@
           <p class="tac" style="font-size: 14px">
             <a href="https://medium.com/35d" target="_blank" class="link">Medium</a> からお引越ししました<br />👇<br /><a href="/blog" class="link">新ブログ</a>
           </p>
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
         <div v-if="activeContent === 'WORKS'">
-          <p class="tac fs14">‍💻 個人開発</p>
+          <p class="tac fs14 mb16">‍💻 個人開発</p>
           <section class="works-section">
             <h2 class="fs14 mb4">プランニングスクラムポーカー(2018)</h2>
             <p class="works-description mb4">スクラム開発で使用する見積もり手法である、スクラムポーカーを実施することができる iOS アプリを作りました。</p>
@@ -85,6 +86,7 @@
           <p><a href="https://twitter.com/___35d" target="_blank" class="link">TWITTER</a></p>
           <p><a href="https://www.facebook.com/yuji.tsuburaya" target="_blank" class="link">FACEBOOK</a></p>
           <p><a href="https://github.com/35d" target="_blank" class="link">GITHUB</a></p>
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
           <!-- <ul>
             <li>
               <a href="https://twitter.com/___35d" target="_blank">
@@ -367,12 +369,18 @@ body
 .mb4
   margin-bottom: 4px
 
+.mb16
+  margin-bottom: 16px
+
 .fs14
   font-size: 14px
 
 .works-link
   color: #EEE
   display: block;
+
+.works-img
+  width: 100%
 
 .works-section
   margin-bottom: 32px
