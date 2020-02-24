@@ -34,7 +34,17 @@ img + em {
   display: block;
 }
 
+p > img {
+  display: block;
+  margin: 0 auto;
+}
+
 img + strong {
+  text-align: center;
+  display: block;
+}
+
+script + p > strong {
   text-align: center;
   display: block;
 }
