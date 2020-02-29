@@ -26,5 +26,13 @@ export default [
   {
     title: "MacOS Catalina から Mojave にダウングレードした",
     url: "/blog/2019-12-29-catarina-to-mojave/"
+  },
+  {
+    title: "僕が Notion を使う上で意識している自分ルール 10 条",
+    url: "/blog/2020-02-23-notion-tips/"
+  },
+  {
+    title: "Notion ミートアップ第 7 回に参加してきた",
+    url: "/blog/2020-02-08-notion//"
   }
 ];
