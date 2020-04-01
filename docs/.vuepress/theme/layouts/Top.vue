@@ -52,7 +52,7 @@
 
         <div v-if="activeContent === 'BLOG'">
           <p class="tac" style="font-size: 14px">
-            <a href="https://medium.com/35d" target="_blank" class="link">Medium</a> からお引越ししました<br />👇<br /><a href="/blog" class="link">新ブログ</a>
+            <a href="https://medium.com/35d" target="_blank" class="link">Medium</a> からお引越ししました<br />👇<br /><a href="https://blog.35d.jp/" class="link">新ブログ</a>
           </p>
           <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
