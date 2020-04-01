@@ -37,8 +37,11 @@ export default {
       return this.$page.title;
     }
   },
-  mounted() {
+  created() {
     location.href = `https://blog.35d.jp/${this.$page.path.split("/")[2]}`;
   }
+  // mounted() {
+  //   location.href = `https://blog.35d.jp/${this.$page.path.split("/")[2]}`;
+  // }
 };
 </script>
