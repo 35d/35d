@@ -36,6 +36,9 @@ export default {
     pageTitle() {
       return this.$page.title;
     }
+  },
+  mounted() {
+    location.href = `https://blog.35d.jp/${this.$page.path.split("/")[2]}`;
   }
 };
 </script>
