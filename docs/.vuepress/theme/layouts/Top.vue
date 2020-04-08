@@ -124,27 +124,19 @@ export default {
   data() {
     return {
       isDarkMode: true,
-      activeContent: "PROFILE" // デフォルトプロフィール
+      activeContent: "PROFILE", // デフォルトプロフィール
     };
   },
   computed: {},
-  mounted() {
-    // window.addEventListener(
-    //   "touchmove",
-    //   function(event) {
-    //     event.preventDefault();
-    //   },
-    //   { passive: false }
-    // );
-  },
+  mounted() {},
   methods: {
     onPressSwitch() {
       this.isDarkMode = !this.isDarkMode;
     },
     clickLink(link) {
       this.activeContent = link;
-    }
-  }
+    },
+  },
 };
 </script>
 
